@@ -3,9 +3,12 @@ const getColor=()=>{
     const randomColor= "#" +randomNumber.toString(16)
     console.log(randomNumber,randomColor);
     document.body.style.backgroundColor=randomColor;
+     document.getElementById("colors").innerText=randomColor;
+     navigator.clipboard.writeText(randomColor)
 }
 document.getElementById("btn").addEventListener(
 
     "click",
     getColor
 )
+getColor()

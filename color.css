@@ -4,7 +4,7 @@
     box-sizing: border-box;
 }
 body{
-    background-color: black;
+    transition: 0.4s;
 }
 .container{
     width: 500px;
@@ -35,6 +35,7 @@ h2{
     font-size: 65px;
     margin: 20px auto;
     color: brown;
+    transition: 0.9s;
 }
 h1{
     color: white;
